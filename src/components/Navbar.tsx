@@ -1,5 +1,5 @@
-import logo from '../assets/logo-vector.svg';
-import logoName from '../assets/hydra-logo-word.svg';
+import logo from '../assets/svg/logo-vector.svg';
+import logoName from '../assets/svg/hydra-logo-word.svg';
 
 import '../ui/Navbar.css';
 

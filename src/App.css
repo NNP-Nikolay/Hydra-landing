@@ -3,6 +3,8 @@
 :root {
   --dark: #302C42;
   --white: #FFFFFF;
+  --gradient: 90deg, #8176AF 0%, #C0B7E8 100%;
+  --shadowBox: #00000021;
 }
 
 *, *::before, *::after {
@@ -29,7 +31,6 @@ a {
 
 body, html {
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
   box-sizing: border-box;
   margin: 0;
   padding: 0 84px;

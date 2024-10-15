@@ -1,5 +1,6 @@
 .header {
-  padding: 50px 0 98px 0;
+  padding-top: 50px;
+  margin-bottom: 98px;
 }
 
 .header .nav {
@@ -36,7 +37,7 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  color: var(--dark);
+  color: var(--white);
 }
 
 .nav__buttons {
@@ -47,6 +48,7 @@
 }
 
 .button {
+  transition: background 0.3s ease;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -55,7 +57,6 @@
   height: 52px;
   padding: 17px 38px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .button_contact-us {
@@ -66,6 +67,6 @@
 
 .button_join-hydra {
   border: 2px solid;
-  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  background: linear-gradient(var(--gradient));
   color: var(--dark);
 }
