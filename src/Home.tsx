@@ -2,7 +2,7 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import NavBar from './components/Navbar';
 
-const Home = () => {
+export default function Home(): React.JSX.Element {
   return (
     <>
       <NavBar />
@@ -11,5 +11,3 @@ const Home = () => {
     </>
   )
 }
-
-export default Home;

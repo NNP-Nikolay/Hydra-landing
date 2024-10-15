@@ -1,0 +1,21 @@
+.header {
+  padding-top: 50px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav__logos-logo {
+  width: 102px;
+  height: 103px;
+}

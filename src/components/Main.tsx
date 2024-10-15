@@ -1,9 +1,7 @@
-const Main = () => {
+export default function Main(): React.JSX.Element {
   return (
     <main className="main">
       Main
     </main>
   )
 }
-
-export default Main;
