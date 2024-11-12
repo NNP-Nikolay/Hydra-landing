@@ -1,3 +1,7 @@
+.virtual-reality {
+  margin-bottom: 90px;
+}
+
 .virtual-reality__flex {
   display: flex;
   justify-content: space-between;
@@ -131,7 +135,6 @@
   width: 65px;
   height: 65px;
 }
-
 
 .virtual-reality__contacts-block-1 {
   padding: 49px 42px 58px 39px;

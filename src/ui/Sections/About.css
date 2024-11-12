@@ -1,0 +1,72 @@
+.about {
+  margin-bottom: 111px;
+}
+
+.about__flexTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 102px;
+}
+
+.about__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.about__blockLeft {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about__highText {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.about__margin-highText {
+  margin-bottom: 42px;
+}
+
+.about__smallText {
+  max-width: 652px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about__extraStyle-smallText {
+  margin-bottom: 28px;
+  max-width: 630px;
+}
+
+.about__arrow-icon {
+  width: 42px;
+  height: 33px;
+}
+
+.about__flexBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.about__btnGetInTouch {
+  transition: background 0.3s ease;
+  border: none;
+  border-radius: 40px;
+  margin-right: 40px;
+  padding: 17px 47px;
+  background: linear-gradient(var(--gradient));
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--dark);
+}
